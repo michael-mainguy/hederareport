@@ -1,0 +1,1 @@
+npm login --scope=@revelmoments --registry=https://npm.pkg.github.com

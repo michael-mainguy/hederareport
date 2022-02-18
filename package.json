@@ -1,0 +1,24 @@
+{
+  "name": "@revelmoments/reporting",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx run ./test.js",
+    "start": "npx run ./index.js"
+  },
+  "dependencies": {
+    "axios": "0.26.0",
+    "pg": "8.7.3",
+    "dotenv": "16.0.0",
+    "twilio": "3.74.0",
+    "@sendgrid/mail": "7.6.1",
+    "handlebars": "4.7.7"
+  },
+  "keywords": [],
+  "author": "michael.mainguy@accenture.com",
+  "license": "ISC",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  }
+}
